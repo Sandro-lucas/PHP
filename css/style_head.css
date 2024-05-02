@@ -1,0 +1,40 @@
+.container{margin-top: 10px;}
+
+.btn{
+    width: 200px;
+    padding: 10px 20px;
+    background-color: #090786;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;}
+
+    .btn_01 {
+        width: 200px;
+        padding: 10px 20px;
+        background-color: #090786;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin: 0 auto; /* Define as margens automáticas */
+        display: block; /* Garante que o botão se comporte como um bloco */
+    }
+    
+.form-ui {
+    background-color: #284ffa;
+    margin-top: 10%;
+    height: 500px;
+    width: 570px;
+    border: 0px solid;
+    padding: 10px;
+    box-shadow: 5px 11px 10px #fffb0075;
+    border-radius: 40px;
+    color: #ffffff
+}
+
+     .btn_01:hover {
+        background-color: #fcfdff;
+    color: #090786;}
