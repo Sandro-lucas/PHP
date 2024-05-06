@@ -1,12 +1,12 @@
 <?php 
-include_once "read.php";
+include_once "head.php";
 include_once "bd/conexao.php"
 
 
 ?>
 <title>Atualizar Clientes</title>
     <?php 
-    $sql = "SELECT * FROM clientes ORDER BY id-clientes";
+    $sql = "SELECT * FROM clientes ORDER BY id_cliente";
     $consulta = mysqli_query($conn,$sql);
     ?>
     <table>
@@ -25,6 +25,7 @@ while ($row = mysqli_fetch_assoc($consulta)) {
     echo "<td>". $row['nome']."</td>";
     echo "<td>". $row['telefone']."</td>";
     echo "<td>". $row['email']."</td>";
+    echo "<td><a href=\"editcliente.php?id=$row[id_cliente]\">Editar</a></td>";
     echo "</tr>";
     
 }

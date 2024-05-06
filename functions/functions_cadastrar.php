@@ -1,7 +1,7 @@
 <?php 
 
     include_once "../bd/conexao.php";
-
+ 
 
     $nome = $_POST['Nome'];
     $telefone = $_POST['Telefone'];
