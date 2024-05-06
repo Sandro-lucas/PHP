@@ -35,3 +35,7 @@ while ($row = mysqli_fetch_assoc($consulta)) {
     </table>
 </body>
 </html>
+<?php 
+
+mysqli_close($conn)
+?>

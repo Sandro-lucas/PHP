@@ -50,3 +50,7 @@ $email = $row['email'];
 </body>
 
 </html>
+<?php 
+
+mysqli_close($conn)
+?>

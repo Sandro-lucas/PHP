@@ -21,3 +21,7 @@ echo " <script>alert('Registro salvo com sucesso')</script>";
 
 
 ?>
+<?php 
+
+mysqli_close($conn)
+?>

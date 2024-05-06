@@ -5,7 +5,7 @@ include_once "../head.php";
 $id = $_POST['id_cliente'];
 $nome = $_POST['Nome'];
 $telefone = $_POST['Telefone'];
-$email = $_POST['Email'];
+$email = $_POST['E-mail'];
 
 //echo "$id, $nome, $telefone, $email";
 
@@ -17,4 +17,12 @@ if ($consulta == TRUE) {
 }else{
     echo"Erro ao Atualizado". mysqli_error($conn);
 }
+?>
+
+    
+</body>
+</html>
+<?php 
+
+mysqli_close($conn)
 ?>
